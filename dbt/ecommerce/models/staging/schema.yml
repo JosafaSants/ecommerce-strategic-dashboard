@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_pedidos
+    description: "Pedidos entregues do Olist com métricas financeiras e geográficas consolidadas."
+    columns:
+      - name: order_id
+        description: "Identificador único do pedido."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: receita_total
+        description: "Valor total pago pelo cliente incluindo frete."
+        data_tests:
+          - not_null
+
+      - name: estado_cliente
+        description: "UF do cliente."
+        data_tests:
+          - not_null
+
+      - name: nps_score
+        description: "Nota de avaliação do pedido (1 a 5)."
+
+      - name: prazo_entrega_dias
+        description: "Dias entre a compra e a entrega ao cliente."
