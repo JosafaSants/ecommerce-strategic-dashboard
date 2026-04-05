@@ -52,7 +52,7 @@ Testes de qualidade automatizados: `unique` e `not_null` nas colunas críticas �
 | Taxa de entrega | 97% |
 
 **Insights estratégicos identificados:**
-- SP concentra 42% da receita com ticket 11% abaixo da média nacional
+- SP concentra 37% da receita com ticket 11% abaixo da média nacional
 - Estados do Norte (AP, AC, RO) têm ticket médio 50% superior a SP — oportunidade de margem em mercados menos explorados
 - Pico de volume em novembro de 2017 (7.289 pedidos) seguido de estabilização — sinal de maturação do canal
 
